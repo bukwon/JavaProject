@@ -5,16 +5,19 @@ import java.util.Scanner;
 public class String5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int result = 0;
-        String[] M = new String[N];
-        String num = sc.next();
-        M = num.split("");
+        while (true) {
+            int N = sc.nextInt();
+            int result = 0;
+            String[] M = new String[N];
+            String num = sc.next();
+            M = num.split("");
 
-        for (int i = 0; i < N; i++) {
-            result += Integer.parseInt(M[i]);
+            for (int i = 0; i < N; i++) {
+                result += Integer.parseInt(M[i]);
+            }
+            System.out.println(result);
+
         }
-        System.out.println(result);
     }
 }
 // 백준 11720번 문제
