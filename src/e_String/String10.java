@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class String10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int initNum = 0;
         String[] word
                 = {"1", "ABC", "DEF", "GHI", "JKL", "MNO", "PRQS",
